@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Safari</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="sidenav">
+            <img src="logo.png" width="60px" height="auto" id="logo" display="flex">
+            <a class="active" href="#Dashboard">Dashboard</a>
+            <a href="#Booking and reservation">Booking and reservation</a>
+            <a href="#unit and listing">Unit and listing</a>
+            <a href="#customers">Customers</a>
+            <a href="#Promotions">Promotions</a>
+            <a href="#Push notifications">Push notifications</a>
+            <a href="#User management">User management</a>
+            <a href="#Configurations">Configurations</a>
+        </div>
+
+        <div class="main">
+<!--Heading section of the page (resusable component)-->
+            <div class="header">
+                <h4>Dashboard</h4>
+                <p>View and track all bookings and reservations</p>
+            </div>
+<!--filter button group on dashboard-->
+            <div class="filter_btn_group">
+                <button class="active">1H</button>
+                <button>1D</button>
+                <button>1W</button>
+                <button>1M</button>
+                <button>3M</button>
+                <button>6M</button>
+                <button>1Y</button>
+            </div>
+
+            <div class="tab_wrapper">
+                <div class="tab">
+                    <p>Total revenue</p>
+                    <h4>GHC0.00</h4>
+                </div>
+
+                <div class="tab">
+                    <p>Occupancy rate</p>
+                    <h4>0.00%</h4>
+                </div>
+
+            </div>
+
+            <div class="section_heading">
+                <h4>Overview</h4>
+            </div>
+
+            <div class="tab_wrapper">
+                <div class="tab">
+                    <p>Upcoming check-ins</p>
+                    <h4>712</h4>
+                </div>
+
+                <div class="tab">
+                    <p>Upcoming check-outs</p>
+                    <h4>34</h4>
+                </div>
+                
+                <div class="tab">
+                    <p>Confirmed reservations</p>
+                    <h4>4543</h4>
+                </div>
+
+                <div class="tab">
+                    <p>Number of active listings</p>
+                    <h4>2343</h4>
+                </div>
+
+            </div>
+
+
+            <div class="section_heading">
+                <h4>Listing reports</h4>
+            </div>
+
+            <div class="tables" style="overflow-x:auto">
+                <table>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Listing ID</th>
+                        <th>Unit</th>
+                        <th>Cost GHC</th>
+                        <th>No of units</th>
+                        <th>Booked units</th>
+                        <th>Availability</th>
+                        <th>Total revenue(GHC)</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td><div class="support_text"><p id="main_item">Cabin Single</p><p id="support_text">Safari Valley</p></div></td>
+                        <td>45</td>
+                        <td>8000</td>
+                        <td>50</td>
+                        <td>25</td>
+                        <td><div id="status">available</div></td>
+                        <td>404.51</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td><div class="support_text"><p id="main_item">Cabin Single</p><p id="support_text">Safari Valley</p></div></td>
+                        <td>45</td>
+                        <td>8000</td>
+                        <td>50</td>
+                        <td>25</td>
+                        <td><div id="status">available</div></td>
+                        <td>404.51</td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td><div class="support_text"><p id="main_item">Cabin Single</p><p id="support_text">Safari Valley</p></div></td>
+                        <td>45</td>
+                        <td>8000</td>
+                        <td>50</td>
+                        <td>25</td>
+                        <td><div id="status">available</div></td>
+                        <td>404.51</td>
+                    </tr>
+                    
+                </table>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </body>
+
+</html>
